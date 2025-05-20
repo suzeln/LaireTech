@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Laire Tech Limited</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Laire Tech</h1>
+                <span>Limited</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Advanced hardware and components for data center liquid cooling</p>
+        </div>
+    </section>
+
+    <section class="products-filter">
+        <div class="container">
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="direct">Direct Cooling</button>
+                <button class="filter-btn" data-filter="immersion">Immersion Systems</button>
+                <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+                <button class="filter-btn" data-filter="monitoring">Monitoring</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-grid">
+        <div class="container">
+            <div class="product-cards">
+                <!-- Direct Cooling Products -->
+                <div class="product-card" data-category="direct">
+                    <div class="product-image">
+                        <img src="https://placehold.co/400x300?text=LT-CP100" alt="LT-CP100 Cold Plate">
+                    </div>
+                    <div class="product-info">
+                        <h3>LT-CP100 Cold Plate</h3>
+                        <p class="product-category">Direct Cooling</p>
+                        <p>High-performance copper cold plate designed for direct CPU/GPU cooling with optimized microfin structure for maximum heat transfer.</p>
+                        <ul class="product-features">
+                            <li>Compatible with all major CPU sockets</li>
+                            <li>Thermal resistance: 0.05°C/W</li>
+                            <li>Max heat capacity: 400W</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Specifications</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="direct">
+                    <div class="product-image">
+                        <img src="https://placehold.co/400x300?text=LT-TM200" alt="LT-TM200 Thermal Module">
+                    </div>
+                    <div class="product-info">
+                        <h3>LT-TM200 Thermal Module</h3>
+                        <p class="product-category">Direct Cooling</p>
+                        <p>Integrated server thermal module with cold plates, quick connectors, and flow regulators for simplified deployment.</p>
+                        <ul class="product-features">
+                            <li>Pre-assembled for 1U/2U servers</li>
+                            <li>Leak-proof quick connect system</li>
+                            <li>Supports up to 4 CPUs and 8 GPUs</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Specifications</a>
+                    </div>
+                </div>
+
+                <!-- Immersion Products -->
+                <div class="product-card" data-category="immersion">
+                    <div class="product-image">
+                        <img src="https://placehold.co/400x300?text=LT-IP300" alt="LT-IP300 Immersion Pod">
+                    </div>
+                    <div class="product-info">
+                        <h3>LT-IP300 Immersion Pod</h3>
+                        <p class="product-category">Immersion Systems</p>
+                        <p>Single-server immersion cooling container with integrated circulation system and heat exchanger connection ports.</p>
+                        <ul class="product-features">
+                            <li>Supports standard 1U-4U servers</li>
+                            <li>Dielectric fluid capacity: 45 liters</li>
+                            <li>Cooling capacity: up to 3kW</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Specifications</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="immersion">
+                    <div class="product-image">
+                        <img src="https://placehold.co/400x300?text=LT-IT500" alt="LT-IT500 Immersion Tank">
+                    </div>
+                    <div class="product-info">
+                        <h3>LT-IT500 Immersion Tank</h3>
+                        <p class="product-category">Immersion Systems</p>
+                        <p>Rack-scale immersion cooling system supporting multiple servers with integrated filtration and conditioning systems.</p>
+                        <ul class="product-features">
+                            <li>Capacity: 42U equivalent (up to 24 servers)</li>
+                            <li>Built-in redundant pumps and filters</li>
+                            <li>Cooling capacity: up to 100kW</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Specifications</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="immersion">
+                    <div class="product-image">
+                        <img src="https://placehold.co/400x300?text=LT-CF600" alt="LT-CF600 Cooling Fluid">
+                    </div>
+                    <div class="product-info">
+                        <h3>LT-CF600 Cooling Fluid</h3>
+                        <p class="product-category">Immersion Systems</p>
+                        <p>Engineered dielectric fluid specifically designed for electronic immersion with superior thermal properties and long-term stability.</p>
+                        <ul class="product-features">
+                            <li>Thermal conductivity: 0.065 W/mK</li>
+                            <li>Dielectric strength: >45 kV</li>
+                            <li>Available in 20L, 200L, and 1000L containers</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Specifications</a>
+                    </div>
+                </div>
+
+                <!-- Infrastructure Products -->
+                <div class="product-card" data-category="infrastructure">
+                    <div class="product-image">
+                        <img src="https://placehold.co/400x300?text=LT-CDU800" alt="LT-CDU800 Coolant Distribution Unit">
+                    </div>
+                    <div class="product-info">
+                        <h3>LT-CDU800 Coolant Distribution Unit</h3>
+                        <p class="product-category">Infrastructure</p>
+                        <p>High-capacity coolant distribution unit with precision temperature control and redundant pumping systems.</p>
+                        <ul class="product-features">
+                            <li>Flow rate: up to 800 L/min</li>
+                            <li>Temperature control accuracy: ±0.5°C</li>
+                            <li>N+1 redundant pump configuration</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Specifications</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="infrastructure">
+                    <div class="product-image">
+                        <img src="https://placehold.co/400x300?text=LT-HX900" alt="LT-HX900 Heat Exchanger">
+                    </div>
+                    <div class="product-info">
+                        <h3>LT-HX900 Heat Exchanger</h3>
+                        <p class="product-category">Infrastructure</p>
+                        <p>High-efficiency liquid-to-liquid heat exchanger for transferring heat from primary to secondary cooling loops.</p>
+                        <ul class="product-features">
+                            <li>Cooling capacity: up to 1MW</li>
+                            <li>Titanium plate construction</li>
+                            <li>Low pressure drop design</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Specifications</a>
+                    </div>
+                </div>
+
+                <!-- Monitoring Products -->
+                <div class="product-card" data-category="monitoring">
+                    <div class="product-image">
+                        <img src="https://placehold.co/400x300?text=LT-MS1000" alt="LT-MS1000 Monitoring System">
+                    </div>
+                    <div class="product-info">
+                        <h3>LT-MS1000 Monitoring System</h3>
+                        <p class="product-category">Monitoring</p>
+                        <p>Comprehensive monitoring and control system for liquid cooling infrastructure with real-time analytics and predictive maintenance.</p>
+                        <ul class="product-features">
+                            <li>Supports up to 100 sensor points</li>
+                            <li>Web-based dashboard with mobile app</li>
+                            <li>Predictive failure analysis</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Specifications</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="monitoring">
+                    <div class="product-image">
+                        <img src="https://placehold.co/400x300?text=LT-LS1200" alt="LT-LS1200 Leak Sensor">
+                    </div>
+                    <div class="product-info">
+                        <h3>LT-LS1200 Leak Detection System</h3>
+                        <p class="product-category">Monitoring</p>
+                        <p>Advanced leak detection system with integrated alert capabilities and automatic shutdown functionality.</p>
+                        <ul class="product-features">
+                            <li>Rope-style and point sensors available</li>
+                            <li>Detection sensitivity: 5ml of fluid</li>
+                            <li>Integration with building management systems</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Specifications</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-support">
+        <div class="container">
+            <div class="support-content">
+                <div class="support-text">
+                    <h2>Product Support</h2>
+                    <p>Laire Tech provides comprehensive support for all our products, including:</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> 24/7 technical assistance</li>
+                        <li><i class="fas fa-check-circle"></i> Extended warranty options</li>
+                        <li><i class="fas fa-check-circle"></i> Installation and commissioning services</li>
+                        <li><i class="fas fa-check-circle"></i> Regular maintenance plans</li>
+                        <li><i class="fas fa-check-circle"></i> Upgrade paths for existing installations</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Contact Support</a>
+                </div>
+                <div class="support-image">
+                    <img src="https://placehold.co/500x300?text=Product+Support" alt="Laire Tech Product Support">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Need Help Selecting the Right Products?</h2>
+            <p>Our engineering team can help you design a complete cooling solution for your specific requirements.</p>
+            <a href="contact.html" class="btn btn-secondary">Request Consultation</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Laire Tech</h2>
+                    <span>Limited</span>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@lairetech.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Park, Innovation District</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Laire Tech Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
